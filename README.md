@@ -122,7 +122,7 @@
       <p align="center">
         <strong>Project Name 3</strong>
         <br>
-        Brief description of the project Brief description of the projectBrief description of the projectBrief description of the projectBrief description of the projectBrief description of the projectBrief description of the projectBrief description of the projectBrief description of the projectBrief description of the projectBrief description of the projectBrief description of the projectBrief description of the projectBrief description of the project
+        Brief description of the project Brief description of the projectBrief description of the projectBrief description of the projectBrief description of the projectBrief description of the projectBrief description of the project
         <br>
         <code>Tech1</code> <code>Tech2</code> <code>Tech3</code>
       </p>
@@ -217,4 +217,4 @@
 </p>
 
 ---
-⭐️ From [your-username](https://github.com/your-username)
+⭐️ From [your-username](https://github.com/komalniraula)
