@@ -217,4 +217,4 @@
 </p>
 
 ---
-⭐️ From [your-username](https://github.com/komalniraula)
+⭐️ From [Komal Niraula](https://github.com/komalniraula)
