@@ -91,7 +91,7 @@
 <table>
   <tr>
     <td width="33%" align="center">
-      <h3><a href="college-project-1">📱Retrieval Augmented Generation (RAG)</a></h3>
+      <h3><a href="https://github.com/komalniraula/RAG-based-LLM">📱Retrieval Augmented Generation (RAG)</a></h3>
       <p>Face recognition-based attendance system for classrooms. Achieved 98% accuracy in student identification.</p>
       <p>
         <code>OpenCV</code>
@@ -100,7 +100,7 @@
       </p>
     </td>
     <td width="33%" align="center">
-      <h3><a href="college-project-2">Relevant Image Selection API</a></h3>
+      <h3><a href="https://github.com/komalniraula/image-search-API">Relevant Image Selection API</a></h3>
       <p>IoT-based environmental monitoring system for campus. Real-time tracking of air quality and noise pollution.</p>
       <p>
         <code>Arduino</code>
@@ -123,7 +123,7 @@
 <table>
   <tr>
     <td width="33%" align="center">
-      <h3><a href="project-link-1">🤖 Presentation Creating System</a></h3>
+      <h3><a href="https://github.com/komalniraula/Presentation-Creation">🤖 Presentation Creating System</a></h3>
       <p>Interactive dashboard for real-time ML model monitoring and performance visualization. Features custom metrics tracking and automated retraining triggers.</p>
       <p>
         <code>Python</code>
@@ -132,7 +132,7 @@
       </p>
     </td>
     <td width="33%" align="center">
-      <h3><a href="project-link-2">📊 Banking and Resource Management</a></h3>
+      <h3><a href="https://github.com/komalniraula/bank-business-resource">📊 Banking and Resource Management</a></h3>
       <p>Scalable ETL pipeline handling 1M+ daily records. Implements fault tolerance and real-time data validation with minimal latency.</p>
       <p>
         <code>Apache Airflow</code>
@@ -141,7 +141,7 @@
       </p>
     </td>
     <td width="33%" align="center">
-      <h3><a href="project-link-3">🔍 ENG-NEP via Azure</a></h3>
+      <h3><a href="https://github.com/komalniraula/Eng-to-Nep-with-Azure">🔍 ENG-NEP via Azure</a></h3>
       <p>Advanced text analysis tool using transformers for sentiment analysis, entity recognition, and topic modeling with 95% accuracy.</p>
       <p>
         <code>PyTorch</code>
@@ -156,7 +156,7 @@
 <table>
   <tr>
     <td width="33%" align="center">
-      <h3><a href="college-project-1">📱 NEPSE Index Prediction</a></h3>
+      <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Predicting%20Nepse">📱 NEPSE Index Prediction</a></h3>
       <p>Face recognition-based attendance system for classrooms. Achieved 98% accuracy in student identification.</p>
       <p>
         <code>OpenCV</code>
@@ -165,7 +165,7 @@
       </p>
     </td>
     <td width="33%" align="center">
-      <h3><a href="college-project-2">🌍 Computing System Archiecture</a></h3>
+      <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Computing%20System%20Architecture/Project">🌍 Computing System Archiecture</a></h3>
       <p>IoT-based environmental monitoring system for campus. Real-time tracking of air quality and noise pollution.</p>
       <p>
         <code>Arduino</code>
@@ -174,7 +174,7 @@
       </p>
     </td>
     <td width="33%" align="center">
-      <h3><a href="college-project-3">🎮 Machine Learning</a></h3>
+      <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Machine%20Learning">🎮 Machine Learning</a></h3>
       <p>Augmented reality application for virtual campus tours. Features interactive 3D models and location-based information.</p>
       <p>
         <code>Unity</code>
