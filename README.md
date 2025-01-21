@@ -87,48 +87,7 @@
   </tr>
 </table>
 
-## 🚀 Featured Projects
-
-<table>
-  <tr>
-    <td width="33%">
-      <a href="project-link-1">
-        <img src="project1-screenshot.png" alt="Project 1" width="100%">
-      </a>
-      <p align="center">
-        <strong>Project Name 1</strong>
-        <br>
-        Brief description of the project
-        <br>
-        <code>Tech1</code> <code>Tech2</code> <code>Tech3</code>
-      </p>
-    </td>
-    <td width="33%">
-      <a href="project-link-2">
-        <img src="project2-screenshot.png" alt="Project 2" width="100%">
-      </a>
-      <p align="center">
-        <strong>Project Name 2</strong>
-        <br>
-        Brief description of the project
-        <br>
-        <code>Tech1</code> <code>Tech2</code> <code>Tech3</code>
-      </p>
-    </td>
-    <td width="33%">
-      <a href="project-link-3">
-        <img src="project3-screenshot.png" alt="Project 3" width="100%">
-      </a>
-      <p align="center">
-        <strong>Project Name 3</strong>
-        <br>
-        Brief description of the project Brief description of the projectBrief description of the projectBrief description of the projectBrief description of the projectBrief description of the projectBrief description of the project
-        <br>
-        <code>Tech1</code> <code>Tech2</code> <code>Tech3</code>
-      </p>
-    </td>
-  </tr>
-</table>
+## 🚀 Previous Works
 
 <table>
   <tr>
@@ -166,7 +125,7 @@
 <table>
   <tr>
     <td width="33%" align="center">
-      <h3><a href="college-project-1">📱 Smart Attendance System</a></h3>
+      <h3><a href="college-project-1">📱Retrieval Augmented Generation (RAG)</a></h3>
       <p>Face recognition-based attendance system for classrooms. Achieved 98% accuracy in student identification.</p>
       <p>
         <code>OpenCV</code>
@@ -175,7 +134,7 @@
       </p>
     </td>
     <td width="33%" align="center">
-      <h3><a href="college-project-2">🌍 Eco Track</a></h3>
+      <h3><a href="college-project-2">Relevant Image Selection API</a></h3>
       <p>IoT-based environmental monitoring system for campus. Real-time tracking of air quality and noise pollution.</p>
       <p>
         <code>Arduino</code>
@@ -184,7 +143,72 @@
       </p>
     </td>
     <td width="33%" align="center">
-      <h3><a href="college-project-3">🎮 AR Campus Tour</a></h3>
+      <h3><a href="college-project-3">EdTech Sentiment Analysis</a></h3>
+      <p>Augmented reality application for virtual campus tours. Features interactive 3D models and location-based information.</p>
+      <p>
+        <code>Unity</code>
+        <code>C#</code>
+        <code>ARCore</code>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <h3><a href="project-link-1">🤖 Presentation Creating System</a></h3>
+      <p>Interactive dashboard for real-time ML model monitoring and performance visualization. Features custom metrics tracking and automated retraining triggers.</p>
+      <p>
+        <code>Python</code>
+        <code>Streamlit</code>
+        <code>Scikit-learn</code>
+      </p>
+    </td>
+    <td width="33%" align="center">
+      <h3><a href="project-link-2">📊 Banking and Resource Management</a></h3>
+      <p>Scalable ETL pipeline handling 1M+ daily records. Implements fault tolerance and real-time data validation with minimal latency.</p>
+      <p>
+        <code>Apache Airflow</code>
+        <code>PostgreSQL</code>
+        <code>Docker</code>
+      </p>
+    </td>
+    <td width="33%" align="center">
+      <h3><a href="project-link-3">🔍 ENG-NEP via Azure</a></h3>
+      <p>Advanced text analysis tool using transformers for sentiment analysis, entity recognition, and topic modeling with 95% accuracy.</p>
+      <p>
+        <code>PyTorch</code>
+        <code>BERT</code>
+        <code>FastAPI</code>
+      </p>
+    </td>
+  </tr>
+</table>
+
+## 🎓 College Projects
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <h3><a href="college-project-1">📱 NEPSE Index Prediction</a></h3>
+      <p>Face recognition-based attendance system for classrooms. Achieved 98% accuracy in student identification.</p>
+      <p>
+        <code>OpenCV</code>
+        <code>TensorFlow</code>
+        <code>Flask</code>
+      </p>
+    </td>
+    <td width="33%" align="center">
+      <h3><a href="college-project-2">🌍 Computing System Archiecture</a></h3>
+      <p>IoT-based environmental monitoring system for campus. Real-time tracking of air quality and noise pollution.</p>
+      <p>
+        <code>Arduino</code>
+        <code>React</code>
+        <code>MongoDB</code>
+      </p>
+    </td>
+    <td width="33%" align="center">
+      <h3><a href="college-project-3">🎮 Machine Learning</a></h3>
       <p>Augmented reality application for virtual campus tours. Features interactive 3D models and location-based information.</p>
       <p>
         <code>Unity</code>
