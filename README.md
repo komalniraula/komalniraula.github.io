@@ -88,40 +88,6 @@
 </table>
 
 ## 🚀 Previous Works
-
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <h3><a href="project-link-1">🤖 Machine Learning Dashboard</a></h3>
-      <p>Interactive dashboard for real-time ML model monitoring and performance visualization. Features custom metrics tracking and automated retraining triggers.</p>
-      <p>
-        <code>Python</code>
-        <code>Streamlit</code>
-        <code>Scikit-learn</code>
-      </p>
-    </td>
-    <td width="33%" align="center">
-      <h3><a href="project-link-2">📊 Data Pipeline Framework</a></h3>
-      <p>Scalable ETL pipeline handling 1M+ daily records. Implements fault tolerance and real-time data validation with minimal latency.</p>
-      <p>
-        <code>Apache Airflow</code>
-        <code>PostgreSQL</code>
-        <code>Docker</code>
-      </p>
-    </td>
-    <td width="33%" align="center">
-      <h3><a href="project-link-3">🔍 NLP Text Analyzer</a></h3>
-      <p>Advanced text analysis tool using transformers for sentiment analysis, entity recognition, and topic modeling with 95% accuracy.</p>
-      <p>
-        <code>PyTorch</code>
-        <code>BERT</code>
-        <code>FastAPI</code>
-      </p>
-    </td>
-  </tr>
-</table>
-
-## 🎓 College Projects
 <table>
   <tr>
     <td width="33%" align="center">
