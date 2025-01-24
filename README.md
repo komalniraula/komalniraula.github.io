@@ -22,9 +22,7 @@
         <img src="https://img.youtube.com/vi/0oXlykTLWVM/maxresdefault.jpg" alt="Video 1 Title" width="100%">
       </a>
       <p align="center">
-        <strong>Video Title 1</strong>
-        <br>
-        Brief description of what viewers will learn
+        <strong>GPT-4 Technical Report - Paper Review</strong>
       </p>
     </td>
     <td width="33%">
@@ -32,9 +30,7 @@
         <img src="https://img.youtube.com/vi/Ndv7C6IwG8Q/maxresdefault.jpg" alt="Video 2 Title" width="100%">
       </a>
       <p align="center">
-        <strong>Video Title 2</strong>
-        <br>
-        Brief description of what viewers will learn
+        <strong>Stanford Alpaca: Revolutionizing AI</strong>
       </p>
     </td>
     <td width="33%">
@@ -42,9 +38,7 @@
         <img src="https://img.youtube.com/vi/tHYOvGCV7rU/maxresdefault.jpg" alt="Video 3 Title" width="100%">
       </a>
       <p align="center">
-        <strong>Video Title 3</strong>
-        <br>
-        Brief description of what viewers will learn
+        <strong>Understanding Self-Attention: The Core of Transformers</strong>
       </p>
     </td>
   </tr>
