@@ -1,3 +1,9 @@
+<style>
+  header h1 {
+    display: none;
+  }
+</style>
+
 <div align="center">
   <table>
     <tr>
