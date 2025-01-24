@@ -49,33 +49,27 @@
 <table>
   <tr>
     <td width="33%">
-      <a href="your-article-link-1">
-        <img src="article1-cover-image.jpg" alt="Article 1 Title" width="100%">
+      <a href="https://medium.com/6143-introduction-to-machine-learning/risk-minimization-6bcecec64b0b">
+        <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*7oF9SKrzV8BE34OmROBJhQ.png" alt="Article 1 Title" width="100%">
       </a>
       <p align="center">
-        <strong>Article Title 1</strong>
-        <br>
-        Short description of the article's main points
+        <strong>Introduction to Risk Minimization</strong>
       </p>
     </td>
     <td width="33%">
-      <a href="your-article-link-2">
-        <img src="article2-cover-image.jpg" alt="Article 2 Title" width="100%">
+      <a href="https://medium.com/6143-introduction-to-machine-learning/polynomial-regression-balancing-complexity-and-generalization-22b34a44ddf3">
+        <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*PV6UbXeZi-DsR8UJVPVC_w.png" alt="Article 2 Title" width="100%">
       </a>
       <p align="center">
-        <strong>Article Title 2</strong>
-        <br>
-        Short description of the article's main points
+        <strong>Polynomial Regression: Balancing Complexity and Generalization</strong>
       </p>
     </td>
     <td width="33%">
-      <a href="your-article-link-3">
-        <img src="article3-cover-image.jpg" alt="Article 3 Title" width="100%">
+      <a href="https://komalniraula.medium.com/what-i-found-visualizing-covid-19-in-nepal-8d80ad56e669">
+        <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Cf7wFDNi-Smiu8T4kYWteQ.png" alt="Article 3 Title" width="100%">
       </a>
       <p align="center">
-        <strong>Article Title 3</strong>
-        <br>
-        Short description of the article's main points
+        <strong>What I found visualizing Covid-19 in Nepal?</strong>
       </p>
     </td>
   </tr>
@@ -185,7 +179,7 @@
 ![](https://img.shields.io/badge/Code-React-informational?style=flat&color=informational)
 
 ## 📊 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)
+<! -- ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=komalniraula&show_icons=true&theme=radical) -->
 
 ## 🤝 Connect With Me
 <p align="center">
