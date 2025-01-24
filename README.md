@@ -80,7 +80,7 @@
   <tr>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/RAG-based-LLM">📱Retrieval Augmented Generation (RAG)</a></h3>
-      <p>Face recognition-based attendance system for classrooms. Achieved 98% accuracy in student identification.</p>
+      <p>RAG based LLM which allowed junior level employees in a bank to inquiry about internal policies.</p>
       <p>
         <code>Groq</code>
         <code>LLama 3.1</code>
@@ -89,7 +89,7 @@
     </td>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/image-search-API">Relevant Image Selection API</a></h3>
-      <p>IoT-based environmental monitoring system for campus. Real-time tracking of air quality and noise pollution.</p>
+      <p>API that receives sentences, and responds with relevant FreePik images for that sentence.</p>
       <p>
         <code>Sentence Embeddings</code>
         <code>Azure</code>
@@ -98,7 +98,7 @@
     </td>
     <td width="33%" align="center">
       <h3><a href="college-project-3">EdTech Sentiment Analysis</a></h3>
-      <p>Augmented reality application for virtual campus tours. Features interactive 3D models and location-based information.</p>
+      <p>Collected user feedback from top edTech platforms of Nepal and performed sentiment analysis.</p>
       <p>
         <code>Transformers</code>
         <code>Web Scraping</code>
@@ -112,7 +112,7 @@
   <tr>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/Presentation-Creation">🤖 Presentation Creating System</a></h3>
-      <p>Interactive dashboard for real-time ML model monitoring and performance visualization. Features custom metrics tracking and automated retraining triggers.</p>
+      <p>Identifis keywords in the document, and creates a presentation using pptx library using relevant images for that keyword.</p>
       <p>
         <code>KeyBERT</code>
         <code>Sentence Transformer</code>
@@ -121,7 +121,7 @@
     </td>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/bank-business-resource">📊 Banking and Resource Management</a></h3>
-      <p>Scalable ETL pipeline handling 1M+ daily records. Implements fault tolerance and real-time data validation with minimal latency.</p>
+      <p>Allowed students to create bank account, get online banking credentials and buy resources for their startup.</p>
       <p>
         <code>Django</code>
         <code>Railway</code>
@@ -130,7 +130,7 @@
     </td>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/Eng-to-Nep-with-Azure">🔍 ENG-NEP via Azure</a></h3>
-      <p>Advanced text analysis tool using transformers for sentiment analysis, entity recognition, and topic modeling with 95% accuracy.</p>
+      <p>Extract sentences from a file and use Azure ML API to get its Nepali translation. Also, create a new doc with the translation.</p>
       <p>
         <code>Azure ML API</code>
         <code>Python</code>
@@ -145,7 +145,7 @@
   <tr>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Predicting%20Nepse">📱 NEPSE Index Prediction</a></h3>
-      <p>Face recognition-based attendance system for classrooms. Achieved 98% accuracy in student identification.</p>
+      <p>MBA Thesis project - Exploring the performances of LSTM, GRU and Feed forward ANN model in predicting Nepal Stock Index. </p>
       <p>
         <code>Scraping</code>
         <code>LSTM</code>
@@ -154,7 +154,7 @@
     </td>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Computing%20System%20Architecture/Project">🌍 Computing System Archiecture</a></h3>
-      <p>IoT-based environmental monitoring system for campus. Real-time tracking of air quality and noise pollution.</p>
+      <p>Implement single stage and five stage processor for RISC-V architecture.</p>
       <p>
         <code>Python</code>
         <code>RISC-V</code>
@@ -163,7 +163,7 @@
     </td>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Machine%20Learning">🎮 Machine Learning</a></h3>
-      <p>Augmented reality application for virtual campus tours. Features interactive 3D models and location-based information.</p>
+      <p>Assessments on mathematical foundation behind machine learning. Used MATLAV for image analysis, regression and emperical risk.</p>
       <p>
         <code>Matlav</code>
         <code>Image Analysis</code>
