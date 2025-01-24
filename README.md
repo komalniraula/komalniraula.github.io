@@ -82,27 +82,27 @@
       <h3><a href="https://github.com/komalniraula/RAG-based-LLM">📱Retrieval Augmented Generation (RAG)</a></h3>
       <p>Face recognition-based attendance system for classrooms. Achieved 98% accuracy in student identification.</p>
       <p>
-        <code>OpenCV</code>
-        <code>TensorFlow</code>
-        <code>Flask</code>
+        <code>Groq</code>
+        <code>LLama 3.1</code>
+        <code>Alibaba Embeddings</code>
       </p>
     </td>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/image-search-API">Relevant Image Selection API</a></h3>
       <p>IoT-based environmental monitoring system for campus. Real-time tracking of air quality and noise pollution.</p>
       <p>
-        <code>Arduino</code>
-        <code>React</code>
-        <code>MongoDB</code>
+        <code>Sentence Embeddings</code>
+        <code>Azure</code>
+        <code>Flask</code>
       </p>
     </td>
     <td width="33%" align="center">
       <h3><a href="college-project-3">EdTech Sentiment Analysis</a></h3>
       <p>Augmented reality application for virtual campus tours. Features interactive 3D models and location-based information.</p>
       <p>
-        <code>Unity</code>
-        <code>C#</code>
-        <code>ARCore</code>
+        <code>Transformers</code>
+        <code>Web Scraping</code>
+        <code>Python</code>
       </p>
     </td>
   </tr>
@@ -114,27 +114,27 @@
       <h3><a href="https://github.com/komalniraula/Presentation-Creation">🤖 Presentation Creating System</a></h3>
       <p>Interactive dashboard for real-time ML model monitoring and performance visualization. Features custom metrics tracking and automated retraining triggers.</p>
       <p>
-        <code>Python</code>
-        <code>Streamlit</code>
-        <code>Scikit-learn</code>
+        <code>KeyBERT</code>
+        <code>Sentence Transformer</code>
+        <code>Cosine Similarity</code>
       </p>
     </td>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/bank-business-resource">📊 Banking and Resource Management</a></h3>
       <p>Scalable ETL pipeline handling 1M+ daily records. Implements fault tolerance and real-time data validation with minimal latency.</p>
       <p>
-        <code>Apache Airflow</code>
-        <code>PostgreSQL</code>
-        <code>Docker</code>
+        <code>Django</code>
+        <code>Railway</code>
+        <code>Database</code>
       </p>
     </td>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/Eng-to-Nep-with-Azure">🔍 ENG-NEP via Azure</a></h3>
       <p>Advanced text analysis tool using transformers for sentiment analysis, entity recognition, and topic modeling with 95% accuracy.</p>
       <p>
-        <code>PyTorch</code>
-        <code>BERT</code>
-        <code>FastAPI</code>
+        <code>Azure ML API</code>
+        <code>Python</code>
+        <code>docx</code>
       </p>
     </td>
   </tr>
@@ -147,36 +147,36 @@
       <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Predicting%20Nepse">📱 NEPSE Index Prediction</a></h3>
       <p>Face recognition-based attendance system for classrooms. Achieved 98% accuracy in student identification.</p>
       <p>
-        <code>OpenCV</code>
-        <code>TensorFlow</code>
-        <code>Flask</code>
+        <code>Scraping</code>
+        <code>LSTM</code>
+        <code>GRU</code>
       </p>
     </td>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Computing%20System%20Architecture/Project">🌍 Computing System Archiecture</a></h3>
       <p>IoT-based environmental monitoring system for campus. Real-time tracking of air quality and noise pollution.</p>
       <p>
-        <code>Arduino</code>
-        <code>React</code>
-        <code>MongoDB</code>
+        <code>Python</code>
+        <code>RISC-V</code>
+        <code>CPI</code>
       </p>
     </td>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Machine%20Learning">🎮 Machine Learning</a></h3>
       <p>Augmented reality application for virtual campus tours. Features interactive 3D models and location-based information.</p>
       <p>
-        <code>Unity</code>
-        <code>C#</code>
-        <code>ARCore</code>
+        <code>Matlav</code>
+        <code>Image Analysis</code>
+        <code>Risk Minimization</code>
       </p>
     </td>
   </tr>
 </table>
 
 ## 🛠️ Technologies & Tools
-![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&color=informational)
-![](https://img.shields.io/badge/Code-Python-informational?style=flat&color=informational)
-![](https://img.shields.io/badge/Code-React-informational?style=flat&color=informational)
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&color=blue) 
+![](https://img.shields.io/badge/Code-MATLAB-informational?style=flat&color=orange) 
+![](https://img.shields.io/badge/Code-Jupyter_Notebook-informational?style=flat&color=green)
 
 ## 🤝 Connect With Me
 <p align="center">
