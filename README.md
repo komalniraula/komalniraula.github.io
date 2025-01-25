@@ -62,7 +62,7 @@
         <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*PV6UbXeZi-DsR8UJVPVC_w.png" alt="Article 2 Title" width="100%">
       </a>
       <p align="center">
-        <strong>Polynomial Regression: Balancing Complexity</strong>
+        <strong>Polynomial Regression: Balancing Complexity and Generalization</strong>
       </p>
     </td>
     <td width="33%">
