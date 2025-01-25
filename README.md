@@ -39,7 +39,7 @@
         <img src="https://img.youtube.com/vi/tHYOvGCV7rU/maxresdefault.jpg" alt="Video 3 Title" width="100%">
       </a>
       <p align="center">
-        <strong>Understanding Self-Attention: The Core of Transformers</strong>
+        <strong>Understanding Self-Attention: The Core</strong>
       </p>
     </td>
   </tr>
@@ -62,7 +62,7 @@
         <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*PV6UbXeZi-DsR8UJVPVC_w.png" alt="Article 2 Title" width="100%">
       </a>
       <p align="center">
-        <strong>Polynomial Regression: Balancing Complexity and Generalization</strong>
+        <strong>Polynomial Regression: Balancing Complexity</strong>
       </p>
     </td>
     <td width="33%">
