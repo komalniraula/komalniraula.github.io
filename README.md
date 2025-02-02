@@ -4,7 +4,7 @@
     <tr>
       <td width="70%" align="left" valign="top">
         <h1>👋 Hi, I'm Komal Niraula</h1>
-        <p>A passionate Data Scientist and Machine Learning Engineer with a knack for turning complex data into actionable insights. I'm interested in working on optimization and interpretability in the learning processes of ML models to drive impactful solutions.</p>
+        <p>A passionate Data Scientist with a knack for turning complex data into actionable insights. I'm interested in extracting patterns and meaningful relationships from data to enhance ML models and develop impactful solutions.</p>
         <p>🎓 Currently pursuing an MS in Computer Engineering at NYU, I integrate academic knowledge with hands-on experience in building ML solutions. My expertise lies in developing AI-driven applications to enhance operational efficiency across domains.</p>
       </td>
       <td width="30%" align="right" valign="top">
