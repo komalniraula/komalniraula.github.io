@@ -8,7 +8,7 @@
         <p>🎓 Currently pursuing an MS in Computer Engineering at NYU, I integrate academic knowledge with hands-on experience in building ML solutions. My expertise lies in developing AI-driven applications to enhance operational efficiency across domains.</p>
       </td>
       <td width="30%" align="right" valign="top">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQEhFa4FWeHe1A/profile-displayphoto-shrink_800_800/B4DZO2cNktHQAc-/0/1733932669581?e=1743033600&v=beta&t=Z8UDu-56SkGZfuH9UAcg_Pxh16377EwLos4jW6BXnI4" width="250" height="250" style="border-radius: 50%; border: 2px solid #0366d6;" alt="Komal Niraula"/>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHczJdJqvu4yg/profile-displayphoto-shrink_400_400/B4DZU6gAJBHIAg-/0/1740443223259?e=1746662400&v=beta&t=dQ7B5H6K2Af7kuC6t9kOlXJbUCFLjcfitWM9VfjpC5E">
       </td>
     </tr>
   </table>
