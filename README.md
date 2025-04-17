@@ -89,7 +89,7 @@
     </td>
 
     <td width="33%" align="center">
-      <h3><a href="college-project-3">Fama-French Three Factor Replication</a></h3>
+      <h3><a href="https://github.com/komalniraula/fama-french-replication">Fama-French Three Factor Replication</a></h3>
       <p>Replicates the Fama-French three-factor model, focusing on the construction and validation of the HML (High Minus Low) and SMB (Small Minus Big) factors using CRSP and Compustat data from WRDS</p>
       <p>
         <code>Python</code>
