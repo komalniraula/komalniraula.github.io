@@ -7,7 +7,7 @@
         <p>A passionate Data Scientist with a knack for turning complex data into actionable insights. I'm interested in extracting patterns and meaningful relationships from data to enhance ML models and develop impactful solutions.</p>
       </td>
       <td width="30%" align="right" valign="top">
-        <img src="https://github.com/komalniraula/komalniraula.github.io/blob/main/25-0681-160.jpeg">
+        <img src="	https://github.com/komalniraula/komalniraula.github.io/blob/main/25-0681-160.jpeg?raw=true">
       </td>
     </tr>
   </table>
