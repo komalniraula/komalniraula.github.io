@@ -75,11 +75,31 @@
   </tr>
 </table>
 
-## 🚀 Previous Works
+## 🚀 Projects
 <table>
   <tr>
     <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/RAG-based-LLM">📱Retrieval Augmented Generation (RAG)</a></h3>
+      <h3><a https://github.com/komalniraula/LiteResNet">LightResNet</a></h3>
+      <p>A lightweight adaptation of the ResNet architecture from Microsoft Research designed for efficient image classification.</p>
+      <p>
+        <code>ResNet</code>
+        <code>CNN</code>
+        <code>PyTorch</code>
+      </p>
+    </td>
+
+    <td width="33%" align="center">
+      <h3><a href="college-project-3">Fama-French Three Factor Replication</a></h3>
+      <p>Replicates the Fama-French three-factor model, focusing on the construction and validation of the HML (High Minus Low) and SMB (Small Minus Big) factors using CRSP and Compustat data from WRDS</p>
+      <p>
+        <code>Python</code>
+        <code>Asset Management</code>
+        <code>Factor Analysis</code>
+      </p>
+    </td>
+    
+    <td width="33%" align="center">
+      <h3><a href="https://github.com/komalniraula/RAG-based-LLM">Retrieval Augmented Generation (RAG)</a></h3>
       <p>RAG based LLM which allowed junior level employees in a bank to inquiry about internal policies.</p>
       <p>
         <code>Groq</code>
@@ -87,56 +107,8 @@
         <code>Alibaba Embeddings</code>
       </p>
     </td>
-    <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/image-search-API">Relevant Image Selection API</a></h3>
-      <p>API that receives sentences, and responds with relevant FreePik images for that sentence.</p>
-      <p>
-        <code>Sentence Embeddings</code>
-        <code>Azure</code>
-        <code>Flask</code>
-      </p>
-    </td>
-    <td width="33%" align="center">
-      <h3><a href="college-project-3">EdTech Sentiment Analysis</a></h3>
-      <p>Collected user feedback from top edTech platforms of Nepal and performed sentiment analysis.</p>
-      <p>
-        <code>Transformers</code>
-        <code>Web Scraping</code>
-        <code>Python</code>
-      </p>
-    </td>
-  </tr>
-</table>
+    
 
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/Presentation-Creation">🤖 Presentation Creating System</a></h3>
-      <p>Identifis keywords in the document, and creates a presentation using pptx library using relevant images for that keyword.</p>
-      <p>
-        <code>KeyBERT</code>
-        <code>Sentence Transformer</code>
-        <code>Cosine Similarity</code>
-      </p>
-    </td>
-    <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/bank-business-resource">📊 Banking and Resource Management</a></h3>
-      <p>Allowed students to create bank account, get online banking credentials and buy resources for their startup.</p>
-      <p>
-        <code>Django</code>
-        <code>Railway</code>
-        <code>Database</code>
-      </p>
-    </td>
-    <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/Eng-to-Nep-with-Azure">🔍 ENG-NEP via Azure</a></h3>
-      <p>Extract sentences from a file and use Azure ML API to get its Nepali translation. Also, create a new doc with the translation.</p>
-      <p>
-        <code>Azure ML API</code>
-        <code>Python</code>
-        <code>docx</code>
-      </p>
-    </td>
   </tr>
 </table>
 
