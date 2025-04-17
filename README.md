@@ -79,36 +79,24 @@
 <table>
   <tr>
     <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/LiteResNet">LightResNet</a></h3>
+      <h3><a href="https://github.com/komalniraula/LiteResNet">📦 LightResNet</a></h3>
       <p>A lightweight adaptation of the ResNet architecture from Microsoft Research designed for efficient image classification.</p>
       <p>
-        <code>ResNet</code>
-        <code>CNN</code>
+        <code>ResNet</code> 
+        <code>CNN</code> 
         <code>PyTorch</code>
       </p>
     </td>
-
     <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/fama-french-replication">Fama-French Three Factor Replication</a></h3>
-      <p>Replicates the Fama-French three-factor model, focusing on the construction and validation of the HML (High Minus Low) and SMB (Small Minus Big) factors using CRSP and Compustat data from WRDS</p>
-      <p>
-        <code>Python</code>
-        <code>Asset Management</code>
-        <code>Factor Analysis</code>
-      </p>
+      <h3><a href="https://github.com/komalniraula/fama-french-replication">📊 Fama-French Replication</a></h3>
+      <p>Replicates the Fama-French three-factor model, focusing on HML and SMB factor construction using CRSP and Compustat.</p>
+      <p><code>Python</code> <code>Asset Management</code> <code>Factor Analysis</code></p>
     </td>
-    
     <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/RAG-based-LLM">Retrieval Augmented Generation (RAG)</a></h3>
-      <p>RAG based LLM which allowed junior level employees in a bank to inquiry about internal policies.</p>
-      <p>
-        <code>Groq</code>
-        <code>LLama 3.1</code>
-        <code>Alibaba Embeddings</code>
-      </p>
+      <h3><a href="https://github.com/komalniraula/RAG-based-LLM">💬 Retrieval-Augmented Generation</a></h3>
+      <p>Bank-specific RAG-based LLM to help junior employees access internal policies via conversational AI.</p>
+      <p><code>Groq</code> <code>LLama 3.1</code> <code>Alibaba Embeddings</code></p>
     </td>
-    
-
   </tr>
 </table>
 
