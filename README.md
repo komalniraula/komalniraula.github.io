@@ -79,7 +79,7 @@
 <table>
   <tr>
     <td width="33%" align="center">
-      <h3><a https://github.com/komalniraula/LiteResNet">LightResNet</a></h3>
+      <h3><a href="https://github.com/komalniraula/LiteResNet">LightResNet</a></h3>
       <p>A lightweight adaptation of the ResNet architecture from Microsoft Research designed for efficient image classification.</p>
       <p>
         <code>ResNet</code>
