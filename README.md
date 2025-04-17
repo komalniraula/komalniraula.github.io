@@ -5,10 +5,9 @@
       <td width="70%" align="left" valign="top">
         <h1>👋 Hi, I'm Komal Niraula</h1>
         <p>A passionate Data Scientist with a knack for turning complex data into actionable insights. I'm interested in extracting patterns and meaningful relationships from data to enhance ML models and develop impactful solutions.</p>
-        <p>🎓 Currently pursuing an MS in Computer Engineering at NYU, I integrate academic knowledge with hands-on experience in building ML solutions. My expertise lies in developing AI-driven applications to enhance operational efficiency across domains.</p>
       </td>
       <td width="30%" align="right" valign="top">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHczJdJqvu4yg/profile-displayphoto-shrink_400_400/B4DZU6gAJBHIAg-/0/1740443223259?e=1746662400&v=beta&t=dQ7B5H6K2Af7kuC6t9kOlXJbUCFLjcfitWM9VfjpC5E">
+        <img src="https://github.com/komalniraula/komalniraula.github.io/blob/main/25-0681-160.jpeg">
       </td>
     </tr>
   </table>
