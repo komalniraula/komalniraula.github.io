@@ -18,11 +18,11 @@
 <table>
   <tr>
     <td width="33%">
-      <a href="https://www.youtube.com/watch?v=0oXlykTLWVM">
-        <img src="https://img.youtube.com/vi/0oXlykTLWVM/maxresdefault.jpg" alt="Video 1 Title" width="100%">
+      <a href="https://www.youtube.com/watch?v=28cwjcxNmGM">
+        <img src="https://img.youtube.com/vi/28cwjcxNmGM/maxresdefault.jpg" alt="Video 1 Title" width="100%">
       </a>
       <p align="center">
-        <strong>GPT-4 Technical Report - Paper Review</strong>
+        <strong>DeepSeek’s mHC Explained: How It Improves LLMs</strong>
       </p>
     </td>
     <td width="33%">
@@ -79,23 +79,21 @@
 <table>
   <tr>
     <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/LiteResNet">📦 LightResNet</a></h3>
-      <p>A lightweight adaptation of the ResNet architecture from Microsoft Research designed for efficient image classification.</p>
-      <p>
-        <code>ResNet</code> 
-        <code>CNN</code> 
-        <code>PyTorch</code>
-      </p>
+      <h3><a href="https://github.com/komalniraula/Shifting-Stories---Shifting-Returns">📦 Shifting Stories – Shifting Returns</a></h3>
+      <p> Quantifies quarter-to-quarter narrative shifts in corporate disclosures and converts them into tradable signals using Moving Target Scores (KL divergence, cosine similarity).</p>
+      <p><code>OpenAI Embeddings</code><code>NLP</code><code>Financial Text Analysis</code><code>Quantitative Finance</code><code>Trading Strategy</code></p>
     </td>
+
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/fama-french-replication">📊 Fama-French Replication</a></h3>
       <p>Replicates the Fama-French three-factor model, focusing on HML and SMB factor construction using CRSP and Compustat.</p>
       <p><code>Python</code> <code>Asset Management</code> <code>Factor Analysis</code></p>
     </td>
+    
     <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/RAG-based-LLM">💬 Retrieval-Augmented Generation</a></h3>
-      <p>Bank-specific RAG-based LLM to help junior employees access internal policies via conversational AI.</p>
-      <p><code>Groq</code> <code>LLama 3.1</code> <code>Alibaba Embeddings</code></p>
+      <h3><a href="https://github.com/komalniraula/adaptive-inference-llm/tree/main">💬 Adaptive LLM Inference</a></h3>
+      <p>A research implementation of adaptive inference for large language models, benchmarking early exit strategies on GPT2 for accuracy–latency trade offs.</p>
+      <p><code>GPT2</code> <code>MLP</code> <code>Early-Exit</code></p>
     </td>
   </tr>
 </table>
@@ -104,12 +102,12 @@
 <table>
   <tr>
     <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Predicting%20Nepse">📱 NEPSE Index Prediction</a></h3>
-      <p>MBA Thesis project - Exploring the performances of LSTM, GRU and Feed forward ANN model in predicting Nepal Stock Index. </p>
+      <h3><a href="https://github.com/komalniraula/LiteResNet">📦 LightResNet</a></h3>
+      <p>A lightweight adaptation of the ResNet architecture from Microsoft Research designed for efficient image classification.</p>
       <p>
-        <code>Scraping</code>
-        <code>LSTM</code>
-        <code>GRU</code>
+        <code>ResNet</code> 
+        <code>CNN</code> 
+        <code>PyTorch</code>
       </p>
     </td>
     <td width="33%" align="center">
