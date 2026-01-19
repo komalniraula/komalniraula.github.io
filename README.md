@@ -80,16 +80,14 @@
   <tr>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/Shifting-Stories---Shifting-Returns">📦 Shifting Stories – Shifting Returns</a></h3>
-      <p> Quantifies quarter-to-quarter narrative shifts in corporate disclosures and converts them into tradable signals using Moving Target Scores.</p>
+      <p> Quantifies quarter to quarter narrative shifts in corporate disclosures and converts them into tradable signals using Moving Target Scores.</p>
       <p><code>NLP</code> <code>Financial Text Analysis</code> <code>Quantitative Finance</code></p>
     </td>
-
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/fama-french-replication">📊 Fama-French Replication</a></h3>
-      <p>Replicates the Fama-French three-factor model, focusing on HML and SMB factor construction using CRSP and Compustat.</p>
+      <p> Replicates the Fama-French three factor model, focusing on HML and SMB factor construction using CRSP and Compustat.</p>
       <p><code>Python</code> <code>Asset Management</code> <code>Factor Analysis</code></p>
     </td>
-    
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/adaptive-inference-llm/tree/main">💬 Adaptive LLM Inference</a></h3>
       <p>A research implementation of adaptive inference for large language models, benchmarking early exit strategies on GPT2 for accuracy–latency trade offs.</p>
