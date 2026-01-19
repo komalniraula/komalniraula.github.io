@@ -80,7 +80,7 @@
   <tr>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/Shifting-Stories---Shifting-Returns">📦 Shifting Stories – Shifting Returns</a></h3>
-      <p> Quantifies quarter to quarter narrative shifts in corporate disclosures and converts them into tradable signals using Moving Target Scores.</p>
+      <p> Quantifies quarter to quarter narrative shifts in corporate disclosures and converts them into tradable signals.</p>
       <p><code>NLP</code> <code>Financial Text Analysis</code> <code>Quantitative Finance</code></p>
     </td>
     <td width="33%" align="center">
