@@ -109,7 +109,7 @@
       </p>
     </td>
     <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Computing%20System%20Architecture/Project">🌍 Computing System Archiecture</a></h3>
+      <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Computing%20System%20Architecture/Project">🌍 Computing System Architecture</a></h3>
       <p>Implement single stage and five stage processor for RISC-V architecture.</p>
       <p>
         <code>Python</code>
@@ -119,9 +119,9 @@
     </td>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Machine%20Learning">🎮 Machine Learning</a></h3>
-      <p>Assessments on mathematical foundation behind machine learning. Used MATLAV for image analysis, regression and emperical risk.</p>
+      <p>Assessments on mathematical foundation behind machine learning. Used MATLAV for image analysis, regression and empirical risk.</p>
       <p>
-        <code>Matlav</code>
+        <code>MATLAB</code>
         <code>Image Analysis</code>
         <code>Risk Minimization</code>
       </p>
