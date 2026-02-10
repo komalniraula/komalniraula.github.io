@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Komal Niraula — Preview</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap");
+
+    :root {
+      --ink: #e5e7eb;
+      --muted: #94a3b8;
+      --card: rgba(15, 23, 42, 0.82);
+      --border: rgba(148, 163, 184, 0.25);
+      --accent: #38bdf8;
+      --soft: rgba(56, 189, 248, 0.15);
+      --shadow: 0 30px 80px rgba(2, 6, 23, 0.6);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Manrope", "IBM Plex Sans", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: radial-gradient(circle at 20% -10%, #1e293b 0%, #0f172a 45%, #020617 100%);
+    }
+
+    html {
+      color-scheme: dark;
+    }
+
+    .wrap {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 36px 24px 80px;
+    }
+
+    .top-grid {
+      display: grid;
+      grid-template-columns: 0.35fr 0.65fr;
+      gap: 24px;
+      align-items: stretch;
+      margin-bottom: 36px;
+    }
+
+    .profile-panel {
+      display: grid;
+      gap: 18px;
+      justify-items: center;
+      text-align: center;
+      align-content: center;
+      height: 100%;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+    }
+
+    .summary {
+      margin: 0;
+      font-size: 16px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: top;
+      border: 1px solid var(--border);
+      box-shadow: 0 16px 40px rgba(2, 6, 23, 0.6);
+    }
+
+    .name {
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin-top: -6px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 14px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      border: 1px solid rgba(148, 163, 184, 0.45);
+      color: #e2e8f0;
+      background: rgba(15, 23, 42, 0.6);
+      box-shadow: 0 12px 28px rgba(2, 6, 23, 0.45);
+    }
+
+    .btn:hover {
+      border-color: rgba(56, 189, 248, 0.8);
+      color: #e2f7ff;
+    }
+
+    .section {
+      margin-top: 40px;
+    }
+
+    .chat-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+      backdrop-filter: blur(10px);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .chat-card h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+
+    .chat-card p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .iframe-wrap {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      background: #fff;
+      min-height: 420px;
+      flex: 1;
+    }
+
+    .iframe-wrap iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+
+    .articles-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .article-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 8px;
+      text-decoration: none;
+      color: inherit;
+      display: grid;
+      gap: 10px;
+      align-content: start;
+      min-height: 240px;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+    }
+
+    .article-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .article-card p {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 600;
+      text-align: center;
+      color: #111827;
+    }
+
+    .articles-grid {
+      align-items: stretch;
+    }
+
+    .section h2 {
+      margin: 0 0 16px;
+      font-size: 22px;
+      letter-spacing: -0.01em;
+    }
+
+    .feature-stack {
+      display: grid;
+      gap: 18px;
+    }
+
+    .feature-card {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 20px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+      backdrop-filter: blur(10px);
+    }
+
+    .feature-card h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+
+    .feature-card a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .feature-card p {
+      margin: 0 0 10px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 12px;
+    }
+
+    .tags span {
+      background: var(--soft);
+      color: #e2e8f0;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.3);
+    }
+
+
+
+    .graph-placeholder {
+      background: linear-gradient(130deg, rgba(56, 189, 248, 0.08), rgba(14, 116, 144, 0.18));
+      border: 1px dashed rgba(56, 189, 248, 0.35);
+      border-radius: 12px;
+      min-height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #94a3b8;
+      font-size: 13px;
+      text-align: center;
+      padding: 12px;
+    }
+
+    .youtube-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .yt-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px;
+      text-align: left;
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+    }
+
+    .yt-card img {
+      width: 100%;
+      border-radius: 12px;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .yt-card p {
+      margin: 0;
+      font-weight: 600;
+      font-size: 14px;
+      color: #e2e8f0;
+    }
+
+    .college-grid .yt-card h3 {
+      text-align: center;
+      margin: 0 0 8px;
+    }
+
+    .college-grid .tags {
+      justify-content: center;
+    }
+
+    @media (max-width: 980px) {
+      .top-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .feature-card {
+        grid-template-columns: 1fr;
+      }
+
+      .youtube-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .articles-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="top-grid">
+      <aside class="profile-panel">
+        <img src="25-0681-160.jpeg" alt="Komal Niraula" class="photo" />
+        <div class="name">Komal Niraula</div>
+        <p class="summary">
+          ML Engineer<br />
+          Applied AI &amp; LLM Systems<br />
+          Cloud-Native ML Pipelines<br />
+          Time-Series &amp; Predictive Modeling<br />
+          Scalable &amp; Efficient Inference
+        </p>
+        <a class="btn" href="resume/Komal_Niraula_Resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+      </aside>
+
+      <div class="chat-card">
+        <h3>🤖 Ask My AI</h3>
+        <p>Ask my AI about my research, projects, or how I think about problems.</p>
+        <div class="iframe-wrap">
+          <iframe src="https://portfolio-chat-vercel.vercel.app" title="Komal Portfolio Chat"></iframe>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="section">
+      <h2>✨ Featured Projects</h2>
+      <div class="feature-stack">
+        <article class="feature-card">
+          <div>
+            <h3><a href="https://github.com/komalniraula/Shifting-Stories---Shifting-Returns">📦 Shifting Stories – Shifting Returns</a></h3>
+            <p>Quantifies quarter to quarter narrative shifts in corporate disclosures and converts them into tradable signals.</p>
+            <div class="tags">
+              <span>NLP</span>
+              <span>Financial Text Analysis</span>
+              <span>Quantitative Finance</span>
+            </div>
+          </div>
+          <div class="graph-placeholder">Graph placeholder for featured results</div>
+        </article>
+
+        <article class="feature-card">
+          <div>
+            <h3><a href="https://github.com/komalniraula/fama-french-replication">📊 Fama-French Replication</a></h3>
+            <p>Replicates the Fama-French three factor model, focusing on HML and SMB factor construction using CRSP and Compustat.</p>
+            <div class="tags">
+              <span>Python</span>
+              <span>Asset Management</span>
+              <span>Factor Analysis</span>
+            </div>
+          </div>
+          <div class="graph-placeholder">Graph placeholder for factor performance</div>
+        </article>
+
+        <article class="feature-card">
+          <div>
+            <h3><a href="https://github.com/komalniraula/adaptive-inference-llm/tree/main">💬 Adaptive LLM Inference</a></h3>
+            <p>A research implementation of adaptive inference for large language models, benchmarking early exit strategies on GPT2 for accuracy–latency trade offs.</p>
+            <div class="tags">
+              <span>GPT2</span>
+              <span>MLP</span>
+              <span>Early-Exit</span>
+            </div>
+          </div>
+          <div class="graph-placeholder">Graph placeholder for latency vs. accuracy</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>🎥 YouTube</h2>
+      <div class="youtube-grid">
+        <a class="yt-card" href="https://www.youtube.com/watch?v=28cwjcxNmGM">
+          <img src="https://img.youtube.com/vi/28cwjcxNmGM/maxresdefault.jpg" alt="DeepSeek’s mHC Explained" />
+          <p>DeepSeek’s mHC Explained: How It Improves LLMs</p>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=Ndv7C6IwG8Q">
+          <img src="https://img.youtube.com/vi/Ndv7C6IwG8Q/maxresdefault.jpg" alt="Stanford Alpaca" />
+          <p>Stanford Alpaca: Revolutionizing AI</p>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=tHYOvGCV7rU">
+          <img src="https://img.youtube.com/vi/tHYOvGCV7rU/maxresdefault.jpg" alt="Understanding Self-Attention" />
+          <p>Understanding Self-Attention: The Core</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>✍️ Articles</h2>
+      <div class="youtube-grid">
+        <a class="article-card" href="https://medium.com/6143-introduction-to-machine-learning/risk-minimization-6bcecec64b0b">
+          <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*7oF9SKrzV8BE34OmROBJhQ.png" alt="Introduction to Risk Minimization" />
+          <p>Introduction to Risk Minimization</p>
+        </a>
+        <a class="article-card" href="https://medium.com/6143-introduction-to-machine-learning/polynomial-regression-balancing-complexity-and-generalization-22b34a44ddf3">
+          <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*PV6UbXeZi-DsR8UJVPVC_w.png" alt="Polynomial Regression: Balancing Complexity and Generalization" />
+          <p>Polynomial Regression: Balancing Complexity and Generalization</p>
+        </a>
+        <a class="article-card" href="https://komalniraula.medium.com/what-i-found-visualizing-covid-19-in-nepal-8d80ad56e669">
+          <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Cf7wFDNi-Smiu8T4kYWteQ.png" alt="What I found visualizing Covid-19 in Nepal?" />
+          <p>What I found visualizing Covid-19 in Nepal?</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>🎓 College Projects</h2>
+      <div class="youtube-grid college-grid">
+        <div class="yt-card">
+          <h3><a href="https://github.com/komalniraula/LiteResNet">📦 LightResNet</a></h3>
+          <p>A lightweight adaptation of the ResNet architecture from Microsoft Research designed for efficient image classification.</p>
+          <div class="tags">
+            <span>ResNet</span>
+            <span>CNN</span>
+            <span>PyTorch</span>
+          </div>
+        </div>
+        <div class="yt-card">
+          <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Computing%20System%20Architecture/Project">🌍 Computing System Architecture</a></h3>
+          <p>Implement single stage and five stage processor for RISC-V architecture.</p>
+          <div class="tags">
+            <span>Python</span>
+            <span>RISC-V</span>
+            <span>CPI</span>
+          </div>
+        </div>
+        <div class="yt-card">
+          <h3><a href="https://github.com/komalniraula/College-Works/tree/main/Machine%20Learning">🎮 Machine Learning</a></h3>
+          <p>Assessments on mathematical foundation behind machine learning. Used MATLAV for image analysis, regression and empirical risk.</p>
+          <div class="tags">
+            <span>MATLAB</span>
+            <span>Image Analysis</span>
+            <span>Risk Minimization</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p align="center">
+        <a href="https://www.linkedin.com/in/komal-niraula/">
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+        </a>
+        <a href="https://komalniraula.medium.com/">
+          <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />
+        </a>
+        <a href="https://www.youtube.com/@komalniraula">
+          <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+        </a>
+      </p>
+    </section>
+  </div>
+</body>
+</html>
