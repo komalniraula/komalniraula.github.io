@@ -199,6 +199,245 @@
       gap: 18px;
     }
 
+    .project-deepdive {
+      margin-top: 24px;
+      background: linear-gradient(135deg, rgba(28, 38, 70, 0.9), rgba(18, 26, 52, 0.96));
+      border: 1px solid rgba(94, 234, 212, 0.45);
+      border-radius: 14px;
+      padding: 18px;
+      box-shadow: 0 26px 70px rgba(2, 6, 23, 0.7);
+      position: relative;
+    }
+
+    .project-deepdive:first-of-type {
+      margin-top: 0;
+    }
+
+    .project-toggle {
+      list-style: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 4px 2px 12px;
+    }
+
+    .project-toggle::-webkit-details-marker {
+      display: none;
+    }
+
+    .project-title {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .project-desc {
+      margin-top: 6px;
+    }
+
+    .project-body {
+      display: grid;
+      gap: 18px;
+      padding-top: 8px;
+    }
+
+    .project-deepdive::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 14px;
+      padding: 1px;
+      background: linear-gradient(135deg, rgba(56, 189, 248, 0.4), rgba(14, 116, 144, 0));
+      -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+      opacity: 0.6;
+    }
+
+    .project-deepdive.variant-purple {
+      background: linear-gradient(135deg, rgba(28, 38, 70, 0.9), rgba(18, 26, 52, 0.96));
+      border: 1px solid rgba(94, 234, 212, 0.45);
+    }
+
+    .project-deepdive.variant-purple::before {
+      background: linear-gradient(135deg, rgba(56, 189, 248, 0.4), rgba(14, 116, 144, 0));
+    }
+
+    .project-deepdive.variant-purple .impact-card {
+      border-color: rgba(56, 189, 248, 0.35);
+    }
+
+    .project-deepdive.variant-purple .impact-card span {
+      color: #7dd3fc;
+    }
+
+    .insight-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .insight-box {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 14px;
+      background: rgba(15, 23, 42, 0.6);
+    }
+
+    .insight-box h4 {
+      margin: 0 0 8px;
+      font-size: 14px;
+      color: #e2e8f0;
+    }
+
+    .insight-box ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      line-height: 1.5;
+      font-size: 13px;
+    }
+
+    .project-toggle a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .project-toggle a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    .project-pills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .project-pills span {
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      color: #e2e8f0;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    .project-meta {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .project-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .project-gallery figure {
+      margin: 0;
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      display: grid;
+      gap: 8px;
+      padding: 10px;
+    }
+
+    .project-gallery img {
+      width: 100%;
+      height: 220px;
+      object-fit: contain;
+      background: #0b1220;
+      border-radius: 8px;
+      display: block;
+    }
+
+    .project-gallery figcaption {
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .impact-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .impact-card {
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      border-radius: 12px;
+      padding: 14px 12px;
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.55));
+      text-align: center;
+      box-shadow: 0 10px 24px rgba(2, 6, 23, 0.5);
+    }
+
+    .impact-card strong {
+      display: block;
+      font-size: 18px;
+      color: #e2f7ff;
+    }
+
+    .impact-card span {
+      color: #7dd3fc;
+      font-weight: 600;
+    }
+
+    .mini-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      color: var(--ink);
+    }
+
+    .mini-table th,
+    .mini-table td {
+      border: 1px solid rgba(148, 163, 184, 0.35);
+      padding: 8px 10px;
+      text-align: left;
+    }
+
+    .mini-table th {
+      background: rgba(15, 23, 42, 0.6);
+      color: #e2e8f0;
+      font-weight: 600;
+    }
+
+    details.summary-card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 14px;
+      background: rgba(15, 23, 42, 0.6);
+    }
+
+    details.summary-card summary {
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    details.summary-card p {
+      margin: 10px 0 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    @media (max-width: 980px) {
+      .project-gallery,
+      .impact-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
     .feature-card {
       display: grid;
       grid-template-columns: 1.1fr 0.9fr;
@@ -343,48 +582,202 @@
 
     <section class="section">
       <h2>✨ Featured Projects</h2>
-      <div class="feature-stack">
-        <article class="feature-card">
+      <details class="project-deepdive" open>
+        <summary class="project-toggle">
           <div>
-            <h3><a href="https://github.com/komalniraula/Shifting-Stories---Shifting-Returns">📦 Shifting Stories – Shifting Returns</a></h3>
-            <p>Quantifies quarter to quarter narrative shifts in corporate disclosures and converts them into tradable signals.</p>
-            <div class="tags">
-              <span>NLP</span>
-              <span>Financial Text Analysis</span>
-              <span>Quantitative Finance</span>
-            </div>
+            <div class="project-title"><a href="https://github.com/komalniraula/adaptive-inference-llm/tree/main" target="_blank" rel="noopener noreferrer">Adaptive LLM Inference</a></div>
+            <div class="project-meta project-desc">A research implementation of adaptive inference for large language models, benchmarking early‑exit strategies on GPT‑2 Medium (SST‑2 sentiment classification) for accuracy–latency tradeoffs.</div>
           </div>
-          <div class="graph-placeholder">Graph placeholder for featured results</div>
-        </article>
-
-        <article class="feature-card">
+          <span class="project-pills">
+            <span>GPT‑2 Medium</span>
+            <span>MLP</span>
+            <span>Efficient LLM</span>
+            <span>Inference</span>
+          </span>
+        </summary>
+        <div class="project-body">
+        <div class="project-gallery">
+          <figure>
+            <a href="featured%20project/project%20images/adaptive-inference/comparison.png" target="_blank" rel="noopener noreferrer">
+              <img src="featured%20project/project%20images/adaptive-inference/comparison.png" alt="Adaptive inference comparison" />
+            </a>
+            <figcaption>Baseline vs. adaptive inference comparison</figcaption>
+          </figure>
+          <figure>
+            <a href="featured%20project/project%20images/adaptive-inference/finetuned_confidence_tradeoff.png" target="_blank" rel="noopener noreferrer">
+              <img src="featured%20project/project%20images/adaptive-inference/finetuned_confidence_tradeoff.png" alt="Confidence tradeoff" />
+            </a>
+            <figcaption>Confidence-based early exit tradeoff</figcaption>
+          </figure>
+          <figure>
+            <a href="featured%20project/project%20images/adaptive-inference/finetuned_mlp_tradeoff.png" target="_blank" rel="noopener noreferrer">
+              <img src="featured%20project/project%20images/adaptive-inference/finetuned_mlp_tradeoff.png" alt="MLP tradeoff" />
+            </a>
+            <figcaption>MLP early-exit accuracy vs. latency</figcaption>
+          </figure>
+        </div>
+        <div class="impact-grid">
+          <div class="impact-card">
+            <strong>Latency ↓</strong>
+            <span>74–81% vs Baseline GPT‑2</span>
+          </div>
+          <div class="impact-card">
+            <strong>Accuracy Δ</strong>
+            <span>+13–14 pts vs Baseline GPT‑2</span>
+          </div>
+          <div class="impact-card">
+            <strong>Speedup</strong>
+            <span>~4–5× (0.021s → 0.004–0.005s)</span>
+          </div>
+        </div>
+        <ul class="project-meta" style="margin:0; padding-left:18px;">
+          <li>Baseline GPT‑2 (no early‑exit, no fine‑tuning): 70.8% accuracy · 0.021s per sample.</li>
+          <li>GPT‑2 (confidence threshold early exit, no fine‑tuning): 49.1% accuracy · 0.00357s per sample.</li>
+          <li>GPT‑2 (confidence threshold early exit, fine‑tuning): 84.6% accuracy · 0.00403s per sample.</li>
+          <li>GPT‑2 (MLP‑based early exit, fine‑tuning): 85.1% accuracy · 0.00547s per sample.</li>
+        </ul>
+        <details class="summary-card">
+          <summary>Method Summary</summary>
+          <p>Introduced confidence and MLP-based early-exit policies, evaluated across multiple checkpoints, and compared against full‑depth inference for latency/accuracy tradeoffs.</p>
+        </details>
+        <details class="summary-card">
+          <summary>Impact Summary</summary>
+          <p>Fine‑tuned early‑exit GPT‑2 boosts accuracy to 84.6–85.1% while cutting latency to 0.00403–0.00547s per sample (≈74–81% reduction, ~4–5× faster) compared to standard GPT‑2.</p>
+        </details>
+        </div>
+      </details>
+      <details class="project-deepdive variant-purple">
+        <summary class="project-toggle">
           <div>
-            <h3><a href="https://github.com/komalniraula/fama-french-replication">📊 Fama-French Replication</a></h3>
-            <p>Replicates the Fama-French three factor model, focusing on HML and SMB factor construction using CRSP and Compustat.</p>
-            <div class="tags">
-              <span>Python</span>
-              <span>Asset Management</span>
-              <span>Factor Analysis</span>
-            </div>
+            <div class="project-title"><a href="https://github.com/komalniraula/Shifting-Stories---Shifting-Returns" target="_blank" rel="noopener noreferrer">Shifting Stories — Shifting Returns</a></div>
+            <div class="project-meta project-desc">This study investigates how longitudinal changes in corporate narratives influence subsequent stock returns. Using Orbit quarterly reports and earnings call transcripts, it builds narrative features (sentiment, financial/business content, risk disclosure, subjectivity, temporal framing) and measures quarter‑over‑quarter shifts.</div>
           </div>
-          <div class="graph-placeholder">Graph placeholder for factor performance</div>
-        </article>
-
-        <article class="feature-card">
+          <span class="project-pills">
+            <span>NLP</span>
+            <span>Financial Text</span>
+            <span>Quant Signals</span>
+            <span>Backtests</span>
+          </span>
+        </summary>
+        <div class="project-body">
+        <div class="project-gallery" style="grid-template-columns: 1fr 1fr;">
+          <figure>
+            <a href="featured%20project/project%20images/shifting-returns/Screenshot%202026-02-10%20at%202.23.51%E2%80%AFAM.png" target="_blank" rel="noopener noreferrer">
+              <img src="featured%20project/project%20images/shifting-returns/Screenshot%202026-02-10%20at%202.23.51%E2%80%AFAM.png" alt="Shifting returns summary slide" />
+            </a>
+            <figcaption>Project snapshot — narrative shifts & signal construction</figcaption>
+          </figure>
+          <figure>
+            <table class="mini-table">
+              <thead>
+                <tr>
+                  <th>MTS Method</th>
+                  <th>Mean</th>
+                  <th>Sharpe</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>MTS roll</td>
+                  <td>−8.37</td>
+                  <td>−0.36</td>
+                </tr>
+                <tr>
+                  <td>MTS w var</td>
+                  <td>−0.01</td>
+                  <td>−0.16</td>
+                </tr>
+                <tr>
+                  <td>MTS w freq</td>
+                  <td>−0.06</td>
+                  <td>−0.29</td>
+                </tr>
+                <tr>
+                  <td>MTS KL</td>
+                  <td>+0.03</td>
+                  <td>0.46</td>
+                </tr>
+                <tr>
+                  <td>MTS Cosine</td>
+                  <td>+0.12</td>
+                  <td>0.54</td>
+                </tr>
+              </tbody>
+            </table>
+          </figure>
+        </div>
+        <div class="insight-grid">
+          <div class="insight-box">
+            <h4>Data Insights</h4>
+            <ul>
+              <li>Strongest narrative change (max |Δ|) carries the strongest predictive information.</li>
+              <li>Balanced directional accuracy ~54% Up and ~51% Down predictions.</li>
+              <li>Firms average ~15 feature changes per quarter; narratives are highly dynamic.</li>
+              <li>Higher future‑oriented firms saw ~30.4% returns vs ~7.1% for less forward‑looking firms.</li>
+              <li>Subjective (top quartile) ~50.8% returns vs Objective ~9.4%.</li>
+            </ul>
+          </div>
+          <div class="insight-box">
+            <h4>Result Highlights</h4>
+            <ul>
+              <li>Distance‑based measures (KL, cosine) delivered the strongest signals.</li>
+              <li>PCA blend of cosine + variance improved robustness and cumulative returns.</li>
+              <li>Factor regressions show positive alpha beyond market, value, and momentum.</li>
+            </ul>
+          </div>
+        </div>
+        <details class="summary-card">
+          <summary>Method Summary</summary>
+          <p>Constructed Moving Target Scores (rolling, EWMA, median, variance, frequency, KL, cosine) to quantify quarter‑to‑quarter shifts. Distance‑based metrics produced the strongest signals, and a PCA composite of cosine + variance improved robustness.</p>
+        </details>
+        <details class="summary-card">
+          <summary>Impact Summary</summary>
+          <p>Signals based on KL divergence and cosine similarity delivered the most consistent performance. The best MTS variants reached Sharpe 0.54 with ~75% hit rates, and factor regressions showed positive alpha when narrative signals added information beyond traditional risk factors.</p>
+        </details>
+        </div>
+      </details>
+      <details class="project-deepdive">
+        <summary class="project-toggle">
           <div>
-            <h3><a href="https://github.com/komalniraula/adaptive-inference-llm/tree/main">💬 Adaptive LLM Inference</a></h3>
-            <p>A research implementation of adaptive inference for large language models, benchmarking early exit strategies on GPT2 for accuracy–latency trade offs.</p>
-            <div class="tags">
-              <span>GPT2</span>
-              <span>MLP</span>
-              <span>Early-Exit</span>
-            </div>
+            <div class="project-title"><a href="https://github.com/komalniraula/fama-french-replication" target="_blank" rel="noopener noreferrer">Fama‑French Factor</a></div>
+            <div class="project-meta project-desc">Replicated HML and SMB factor construction using CRSP/Compustat workflows, validating factor behavior and rolling alpha dynamics against published benchmarks.</div>
           </div>
-          <div class="graph-placeholder">Graph placeholder for latency vs. accuracy</div>
-        </article>
-      </div>
-    </section>
-
+          <span class="project-pills">
+            <span>HML</span>
+            <span>SMB</span>
+            <span>Factor Model</span>
+            <span>Replication</span>
+          </span>
+        </summary>
+        <div class="project-body">
+          <p class="project-meta">Beyond replication, I analyzed zero‑dividend composition within value vs. growth and tracked its relationship to HML rolling alpha to understand when the value premium strengthens or weakens.</p>
+          <div class="project-gallery" style="grid-template-columns: repeat(3, 1fr);">
+            <figure>
+              <a href="featured%20project/project%20images/fama-french/Image%20-%20HML%20comparision.png" target="_blank" rel="noopener noreferrer">
+                <img src="featured%20project/project%20images/fama-french/Image%20-%20HML%20comparision.png" alt="HML replication comparison" />
+              </a>
+              <figcaption>HML replication vs. benchmark</figcaption>
+            </figure>
+            <figure>
+              <a href="featured%20project/project%20images/fama-french/rolling%20hml%20alpha.png" target="_blank" rel="noopener noreferrer">
+                <img src="featured%20project/project%20images/fama-french/rolling%20hml%20alpha.png" alt="Rolling HML alpha" />
+              </a>
+              <figcaption>Rolling alpha dynamics (HML)</figcaption>
+            </figure>
+            <figure>
+              <a href="featured%20project/project%20images/fama-french/zero_dividend_me_share_within_group_growth_value.png" target="_blank" rel="noopener noreferrer">
+                <img src="featured%20project/project%20images/fama-french/zero_dividend_me_share_within_group_growth_value.png" alt="Zero-dividend market cap share within growth vs value and rolling alpha" />
+              </a>
+              <figcaption>Zero‑dividend share vs. HML rolling alpha</figcaption>
+            </figure>
+          </div>
+          <details class="summary-card">
+            <summary>Method Summary</summary>
+            <p>Constructed factor portfolios using standard HML/SMB definitions, validated time‑series behavior, and analyzed rolling alpha trends for value vs. growth regimes.</p>
+          </details>
+        </div>
+      </details>
+        
     <section class="section">
       <h2>🎥 YouTube</h2>
       <div class="youtube-grid">
