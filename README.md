@@ -1,20 +1,48 @@
 <table width="100%">
   <tr>
-    <td width="66%" align="left" valign="top">
-      <h1>👋 Hi, I'm Komal Niraula</h1>
-      <p>A passionate Data Scientist with a knack for turning complex data into actionable insights. I'm interested in extracting patterns and meaningful relationships from data to enhance ML models and develop impactful solutions.</p>
+    <td width="35%" valign="top">
+      <div style="border:1px solid #e5e7eb; border-radius:16px; padding:16px; background:#0f172a; color:#e5e7eb; text-align:center;">
+        <img src="https://github.com/komalniraula/komalniraula.github.io/blob/main/25-0681-160.jpeg?raw=true" width="180" height="180" style="border-radius:999px; object-fit:cover;" />
+        <h2 style="margin:12px 0 6px;">Komal Niraula</h2>
+        <p style="margin:6px 0 12px; color:#94a3b8;">
+          ML Engineer<br />
+          Applied AI &amp; LLM Systems<br />
+          Cloud-Native ML Pipelines<br />
+          Time-Series &amp; Predictive Modeling<br />
+          Scalable &amp; Efficient Inference
+        </p>
+        <a href="resume/Komal_Niraula_Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/badge/Download%20Resume-111827?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
+        </a>
+      </div>
+    </td>
+    <td width="65%" valign="top">
+      <div style="border:1px solid #e5e7eb; border-radius:16px; padding:16px; background:#0f172a; color:#e5e7eb;">
+        <h3 style="margin:0 0 6px;">🤖 Ask My AI</h3>
+        <p style="margin:0 0 12px; color:#94a3b8;">Ask my AI about my research, projects, or how I think about problems.</p>
+        <div style="border:1px solid #e5e7eb; border-radius:12px; padding:14px; background:#111827;">
+          <a href="https://portfolio-chat-vercel.vercel.app" target="_blank" rel="noopener noreferrer" style="color:#38bdf8; text-decoration:none; font-weight:600;">
+            Open Chatbot
+          </a>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
 
-## 🚀 Projects
+---
+
+## ✨ Featured Projects
 <table>
   <tr>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/Shifting-Stories---Shifting-Returns">📦 Shifting Stories – Shifting Returns</a></h3>
-      <p> Quantifies quarter to quarter narrative shifts in corporate disclosures and converts them into tradable signals.</p>
+      <p>Quantifies quarter to quarter narrative shifts in corporate disclosures and converts them into tradable signals.</p>
       <p><code>NLP</code> <code>Financial Text Analysis</code> <code>Quantitative Finance</code></p>
     </td>
     <td width="33%" align="center">
       <h3><a href="https://github.com/komalniraula/fama-french-replication">📊 Fama-French Replication</a></h3>
-      <p> Replicates the Fama-French three factor model, focusing on HML and SMB factor construction using CRSP and Compustat.</p>
+      <p>Replicates the Fama-French three factor model, focusing on HML and SMB factor construction using CRSP and Compustat.</p>
       <p><code>Python</code> <code>Asset Management</code> <code>Factor Analysis</code></p>
     </td>
     <td width="33%" align="center">
@@ -26,12 +54,11 @@
 </table>
 
 ## 🎥 YouTube Videos
-
 <table>
   <tr>
     <td width="33%">
       <a href="https://www.youtube.com/watch?v=28cwjcxNmGM">
-        <img src="https://img.youtube.com/vi/28cwjcxNmGM/maxresdefault.jpg" alt="Video 1 Title" width="100%">
+        <img src="https://img.youtube.com/vi/28cwjcxNmGM/maxresdefault.jpg" alt="DeepSeek’s mHC Explained" width="100%">
       </a>
       <p align="center">
         <strong>DeepSeek’s mHC Explained: How It Improves LLMs</strong>
@@ -39,7 +66,7 @@
     </td>
     <td width="33%">
       <a href="https://www.youtube.com/watch?v=Ndv7C6IwG8Q">
-        <img src="https://img.youtube.com/vi/Ndv7C6IwG8Q/maxresdefault.jpg" alt="Video 2 Title" width="100%">
+        <img src="https://img.youtube.com/vi/Ndv7C6IwG8Q/maxresdefault.jpg" alt="Stanford Alpaca" width="100%">
       </a>
       <p align="center">
         <strong>Stanford Alpaca: Revolutionizing AI</strong>
@@ -47,7 +74,7 @@
     </td>
     <td width="33%">
       <a href="https://www.youtube.com/watch?v=tHYOvGCV7rU">
-        <img src="https://img.youtube.com/vi/tHYOvGCV7rU/maxresdefault.jpg" alt="Video 3 Title" width="100%">
+        <img src="https://img.youtube.com/vi/tHYOvGCV7rU/maxresdefault.jpg" alt="Understanding Self-Attention" width="100%">
       </a>
       <p align="center">
         <strong>Understanding Self-Attention: The Core</strong>
@@ -56,13 +83,12 @@
   </tr>
 </table>
 
-## ✍️ Medium Articles
-
+## ✍️ Articles
 <table>
   <tr>
     <td width="33%">
       <a href="https://medium.com/6143-introduction-to-machine-learning/risk-minimization-6bcecec64b0b">
-        <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*7oF9SKrzV8BE34OmROBJhQ.png" alt="Article 1 Title" width="100%">
+        <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*7oF9SKrzV8BE34OmROBJhQ.png" alt="Introduction to Risk Minimization" width="100%">
       </a>
       <p align="center">
         <strong>Introduction to Risk Minimization</strong>
@@ -70,7 +96,7 @@
     </td>
     <td width="33%">
       <a href="https://medium.com/6143-introduction-to-machine-learning/polynomial-regression-balancing-complexity-and-generalization-22b34a44ddf3">
-        <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*PV6UbXeZi-DsR8UJVPVC_w.png" alt="Article 2 Title" width="100%">
+        <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*PV6UbXeZi-DsR8UJVPVC_w.png" alt="Polynomial Regression: Balancing Complexity and Generalization" width="100%">
       </a>
       <p align="center">
         <strong>Polynomial Regression: Balancing Complexity and Generalization</strong>
@@ -78,7 +104,7 @@
     </td>
     <td width="33%">
       <a href="https://komalniraula.medium.com/what-i-found-visualizing-covid-19-in-nepal-8d80ad56e669">
-        <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Cf7wFDNi-Smiu8T4kYWteQ.png" alt="Article 3 Title" width="100%">
+        <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Cf7wFDNi-Smiu8T4kYWteQ.png" alt="What I found visualizing Covid-19 in Nepal?" width="100%">
       </a>
       <p align="center">
         <strong>What I found visualizing Covid-19 in Nepal?</strong>
@@ -86,6 +112,7 @@
     </td>
   </tr>
 </table>
+
 ## 🎓 College Projects
 <table>
   <tr>
@@ -93,8 +120,8 @@
       <h3><a href="https://github.com/komalniraula/LiteResNet">📦 LightResNet</a></h3>
       <p>A lightweight adaptation of the ResNet architecture from Microsoft Research designed for efficient image classification.</p>
       <p>
-        <code>ResNet</code> 
-        <code>CNN</code> 
+        <code>ResNet</code>
+        <code>CNN</code>
         <code>PyTorch</code>
       </p>
     </td>
@@ -119,11 +146,6 @@
   </tr>
 </table>
 
-## 🛠️ Technologies & Tools
-![](https://img.shields.io/badge/Code-Python-informational?style=flat&color=blue) 
-![](https://img.shields.io/badge/Code-MATLAB-informational?style=flat&color=orange) 
-![](https://img.shields.io/badge/Code-Jupyter_Notebook-informational?style=flat&color=green)
-
 ## 🤝 Connect With Me
 <p align="center">
   <a href="https://www.linkedin.com/in/komal-niraula/">
@@ -136,40 +158,3 @@
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   </a>
 </p>
-
----
-⭐️ From [Komal Niraula](https://github.com/komalniraula)
-
-    </td>
-    <td width="34%" align="left" valign="top">
-      <div style="border:1px solid #e5e7eb; border-radius:16px; padding:12px;">
-        <img src="https://github.com/komalniraula/komalniraula.github.io/blob/main/25-0681-160.jpeg?raw=true" width="100%" height="180" style="border-radius:12px; object-fit:cover; object-position:top;" />
-        <br /><br />
-        <table width="100%">
-          <tr>
-            <td width="50%" align="center">
-              <a href="resume/Komal_Niraula_Resume.pdf" target="_blank" rel="noopener noreferrer">
-                <img src="https://img.shields.io/badge/Download%20Resume-111827?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" width="100%" />
-              </a>
-            </td>
-            <td width="50%" align="center">
-              <a href="https://www.linkedin.com/in/komal-niraula/" target="_blank" rel="noopener noreferrer">
-                <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" width="100%" />
-              </a>
-            </td>
-          </tr>
-        </table>
-        <br /><br />
-        <div style="border:1px solid #e5e7eb; border-radius:12px; overflow:hidden;">
-          <iframe
-            src="https://portfolio-chat-vercel.vercel.app"
-            width="100%"
-            height="460"
-            style="border:0;"
-            title="Komal Portfolio Chat"
-          ></iframe>
-        </div>
-      </div>
-    </td>
-  </tr>
-</table>
