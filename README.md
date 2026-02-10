@@ -1,17 +1,29 @@
+<table width="100%">
+  <tr>
+    <td width="66%" align="left" valign="top">
+      <h1>👋 Hi, I'm Komal Niraula</h1>
+      <p>A passionate Data Scientist with a knack for turning complex data into actionable insights. I'm interested in extracting patterns and meaningful relationships from data to enhance ML models and develop impactful solutions.</p>
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="70%" align="left" valign="top">
-        <h1>👋 Hi, I'm Komal Niraula</h1>
-        <p>A passionate Data Scientist with a knack for turning complex data into actionable insights. I'm interested in extracting patterns and meaningful relationships from data to enhance ML models and develop impactful solutions.</p>
-      </td>
-      <td width="30%" align="right" valign="top">
-        <img src="https://github.com/komalniraula/komalniraula.github.io/blob/main/25-0681-160.jpeg?raw=true">
-      </td>
-    </tr>
-  </table>
-</div> 
+## 🚀 Projects
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <h3><a href="https://github.com/komalniraula/Shifting-Stories---Shifting-Returns">📦 Shifting Stories – Shifting Returns</a></h3>
+      <p> Quantifies quarter to quarter narrative shifts in corporate disclosures and converts them into tradable signals.</p>
+      <p><code>NLP</code> <code>Financial Text Analysis</code> <code>Quantitative Finance</code></p>
+    </td>
+    <td width="33%" align="center">
+      <h3><a href="https://github.com/komalniraula/fama-french-replication">📊 Fama-French Replication</a></h3>
+      <p> Replicates the Fama-French three factor model, focusing on HML and SMB factor construction using CRSP and Compustat.</p>
+      <p><code>Python</code> <code>Asset Management</code> <code>Factor Analysis</code></p>
+    </td>
+    <td width="33%" align="center">
+      <h3><a href="https://github.com/komalniraula/adaptive-inference-llm/tree/main">💬 Adaptive LLM Inference</a></h3>
+      <p>A research implementation of adaptive inference for large language models, benchmarking early exit strategies on GPT2 for accuracy–latency trade offs.</p>
+      <p><code>GPT2</code> <code>MLP</code> <code>Early-Exit</code></p>
+    </td>
+  </tr>
+</table>
 
 ## 🎥 YouTube Videos
 
@@ -74,28 +86,6 @@
     </td>
   </tr>
 </table>
-
-## 🚀 Projects
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/Shifting-Stories---Shifting-Returns">📦 Shifting Stories – Shifting Returns</a></h3>
-      <p> Quantifies quarter to quarter narrative shifts in corporate disclosures and converts them into tradable signals.</p>
-      <p><code>NLP</code> <code>Financial Text Analysis</code> <code>Quantitative Finance</code></p>
-    </td>
-    <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/fama-french-replication">📊 Fama-French Replication</a></h3>
-      <p> Replicates the Fama-French three factor model, focusing on HML and SMB factor construction using CRSP and Compustat.</p>
-      <p><code>Python</code> <code>Asset Management</code> <code>Factor Analysis</code></p>
-    </td>
-    <td width="33%" align="center">
-      <h3><a href="https://github.com/komalniraula/adaptive-inference-llm/tree/main">💬 Adaptive LLM Inference</a></h3>
-      <p>A research implementation of adaptive inference for large language models, benchmarking early exit strategies on GPT2 for accuracy–latency trade offs.</p>
-      <p><code>GPT2</code> <code>MLP</code> <code>Early-Exit</code></p>
-    </td>
-  </tr>
-</table>
-
 ## 🎓 College Projects
 <table>
   <tr>
@@ -149,3 +139,37 @@
 
 ---
 ⭐️ From [Komal Niraula](https://github.com/komalniraula)
+
+    </td>
+    <td width="34%" align="left" valign="top">
+      <div style="border:1px solid #e5e7eb; border-radius:16px; padding:12px;">
+        <img src="https://github.com/komalniraula/komalniraula.github.io/blob/main/25-0681-160.jpeg?raw=true" width="100%" height="180" style="border-radius:12px; object-fit:cover; object-position:top;" />
+        <br /><br />
+        <table width="100%">
+          <tr>
+            <td width="50%" align="center">
+              <a href="resume/Komal_Niraula_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.shields.io/badge/Download%20Resume-111827?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" width="100%" />
+              </a>
+            </td>
+            <td width="50%" align="center">
+              <a href="https://www.linkedin.com/in/komal-niraula/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" width="100%" />
+              </a>
+            </td>
+          </tr>
+        </table>
+        <br /><br />
+        <div style="border:1px solid #e5e7eb; border-radius:12px; overflow:hidden;">
+          <iframe
+            src="https://portfolio-chat-vercel.vercel.app"
+            width="100%"
+            height="460"
+            style="border:0;"
+            title="Komal Portfolio Chat"
+          ></iframe>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
